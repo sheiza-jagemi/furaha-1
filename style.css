@@ -1,0 +1,25 @@
+* {
+    margin: 15px;
+    padding: 10px;
+    text-decoration: dashed;
+    list-style: blue;
+}
+.navbar{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    padding: 10px 0;
+    background-color: blanchedalmond;
+    align-items: center;
+
+}
+.navbar a{
+    color: rgb(13, 34, 104);
+    text-decoration: none;
+    padding: 8px 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px ;
+    transition: background-color 0.3s ease;
+}
+
